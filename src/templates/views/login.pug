@@ -1,0 +1,14 @@
+.row
+	.col
+		h1.my-5.mx-5 Login 
+		form.my-5.mx-5
+			.form-group
+				label(for='exampleInputEmail1') Username
+				input#exampleInputEmail1.form-control(type='text',name="username", aria-describedby='emailHelp',ng-model="username", placeholder='Username')
+			.form-group
+				label(for='exampleInputPassword1') Password
+				input#exampleInputPassword1.form-control(type='password',name="password",ng-model="password", placeholder='Password')
+		
+			button.btn.btn-primary(type='button' ng-click="submit()") Submit
+
+
